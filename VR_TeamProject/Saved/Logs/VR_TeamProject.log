@@ -1006,3 +1006,72 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.10.10-02.34.28:601][247]LogContentValidation: Display: MapBuildDataRegistry /Game/VRTemplate/Maps/VRTemplateMap_BuiltData.VRTemplateMap_BuiltData を検証しています
 [2023.10.10-02.34.28:601][247]LogContentValidation: Display: World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap を検証しています
 [2023.10.10-02.34.28:988][271]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2023.10.10-02.42.05:611][755]LogSlate: Window '新規レベル' being destroyed
+[2023.10.10-02.42.05:621][755]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/VR-Basic.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.10.10-02.42.05:644][755]LightingResults: New page: ライティングのビルド
+[2023.10.10-02.42.05:644][755]LoadErrors: New page: マップをロード中: VR-Basic.umap
+[2023.10.10-02.42.05:646][755]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-02.42.05:646][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-02.42.05:646][755]MapCheck: New page: マップをチェック
+[2023.10.10-02.42.05:646][755]LightingResults: New page: <何も選択されていません>
+[2023.10.10-02.42.05:651][755]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.10-02.42.05:654][755]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2023.10.10-02.42.05:707][755]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_1'.
+[2023.10.10-02.42.05:707][755]LogAIModule: Creating AISystem for world Untitled_1
+[2023.10.10-02.42.05:711][755]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.10-02.42.05:718][755]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2023.10.10-02.42.05:728][755]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.10-02.42.05:729][755]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.252ミリ秒かかりました。
+[2023.10.10-02.42.05:729][755]LogFileHelpers: Loading map 'VR-Basic' took 0.108
+[2023.10.10-02.42.08:721][930]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Pyramid)
+[2023.10.10-02.42.09:412][970]Cmd: DELETE
+[2023.10.10-02.42.09:412][970]Cmd: ACTOR DELETE
+[2023.10.10-02.42.09:413][970]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.10-02.42.09:419][970]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.10.10-02.42.09:420][970]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2023.10.10-02.42.10:561][ 39]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2023.10.10-02.42.11:165][ 74]Cmd: DELETE
+[2023.10.10-02.42.11:165][ 74]Cmd: ACTOR DELETE
+[2023.10.10-02.42.11:167][ 74]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.10-02.42.11:172][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2023.10.10-02.42.11:172][ 74]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2023.10.10-02.42.12:865][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2023.10.10-02.42.13:451][210]Cmd: DELETE
+[2023.10.10-02.42.13:451][210]Cmd: ACTOR DELETE
+[2023.10.10-02.42.13:452][210]LogEditorActor: Deleted Actor: StaticMeshActor
+[2023.10.10-02.42.13:457][210]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2023.10.10-02.42.13:457][210]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2023.10.10-02.42.45:075][961]LogSlate: Window '名前を付けてレベルを保存する' being destroyed
+[2023.10.10-02.42.45:115][961]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2023.10.10-02.42.45:132][961]LogSavePackage: Moving '../../../../../../Users/R2/OneDrive/デスクトップ/VR_team/VR_TeamProject/Saved/MurakamiVRMap236009BC42F9E76781427E90A7FA54E5.tmp' to '../../../../../../Users/R2/OneDrive/デスクトップ/VR_team/VR_TeamProject/Content/MURAKAMI/MurakamiVRMap.umap'
+[2023.10.10-02.42.45:149][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MURAKAMI/MurakamiVRMap_BuiltData" FILE="../../../../../../Users/R2/OneDrive/デスクトップ/VR_team/VR_TeamProject/Content/MURAKAMI/MurakamiVRMap_BuiltData.uasset" SILENT=true
+[2023.10.10-02.42.45:152][961]LogSavePackage: Moving '../../../../../../Users/R2/OneDrive/デスクトップ/VR_team/VR_TeamProject/Saved/MurakamiVRMap_BuiltDataA6D5A70B4D4F75FA6BF02BA3A96B9124.tmp' to '../../../../../../Users/R2/OneDrive/デスクトップ/VR_team/VR_TeamProject/Content/MURAKAMI/MurakamiVRMap_BuiltData.uasset'
+[2023.10.10-02.42.45:161][961]LogFileHelpers: Saving map 'MurakamiVRMap' took 0.076
+[2023.10.10-02.42.45:164][961]AssetCheck: New page: アセット保存：複数のアセット
+[2023.10.10-02.42.45:164][961]LogContentValidation: Display: World /Game/MURAKAMI/MurakamiVRMap.MurakamiVRMap を検証しています
+[2023.10.10-02.42.45:164][961]LogContentValidation: Display: MapBuildDataRegistry /Game/MURAKAMI/MurakamiVRMap_BuiltData.MurakamiVRMap_BuiltData を検証しています
+[2023.10.10-02.42.47:956][128]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2023.10.10-02.42.47:992][128]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MURAKAMI/MurakamiVRMap.MurakamiVRMap
+[2023.10.10-02.42.47:992][128]Cmd: MAP LOAD FILE="../../../../../../Users/R2/OneDrive/デスクトップ/VR_team/VR_TeamProject/Content/MURAKAMI/MurakamiVRMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.10.10-02.42.47:992][128]LightingResults: New page: ライティングのビルド
+[2023.10.10-02.42.47:992][128]LoadErrors: New page: マップをロード中: MurakamiVRMap.umap
+[2023.10.10-02.42.48:028][128]LogWorld: UWorld::CleanupWorld for MurakamiVRMap, bSessionEnded=true, bCleanupResources=true
+[2023.10.10-02.42.48:028][128]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.10-02.42.48:028][128]MapCheck: New page: マップをチェック
+[2023.10.10-02.42.48:028][128]LightingResults: New page: <何も選択されていません>
+[2023.10.10-02.42.48:035][128]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.10-02.42.48:036][128]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2023.10.10-02.42.48:040][128]LogAudio: Display: Audio Device (ID: 1) registered with world 'MurakamiVRMap'.
+[2023.10.10-02.42.48:041][128]LogAIModule: Creating AISystem for world MurakamiVRMap
+[2023.10.10-02.42.48:044][128]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.10-02.42.48:050][128]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.10.10-02.42.48:060][128]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.10-02.42.48:060][128]MapCheck: マップチェックが完了: 0 エラー、 0 警告、完了に 0.145ミリ秒かかりました。
+[2023.10.10-02.42.48:060][128]LogFileHelpers: Loading map 'MurakamiVRMap' took 0.068
+[2023.10.10-02.42.49:975][241]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2023.10.10-02.42.49:990][241]LogSavePackage: Moving '../../../../../../Users/R2/OneDrive/デスクトップ/VR_team/VR_TeamProject/Saved/MurakamiVRMap4C82DEE7449B0D48B7C4019114BAEC98.tmp' to '../../../../../../Users/R2/OneDrive/デスクトップ/VR_team/VR_TeamProject/Content/MURAKAMI/MurakamiVRMap.umap'
+[2023.10.10-02.42.50:003][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MURAKAMI/MurakamiVRMap_BuiltData" FILE="../../../../../../Users/R2/OneDrive/デスクトップ/VR_team/VR_TeamProject/Content/MURAKAMI/MurakamiVRMap_BuiltData.uasset" SILENT=true
+[2023.10.10-02.42.50:005][241]LogSavePackage: Moving '../../../../../../Users/R2/OneDrive/デスクトップ/VR_team/VR_TeamProject/Saved/MurakamiVRMap_BuiltDataB322749D42B0E3316FB94682AF9BA111.tmp' to '../../../../../../Users/R2/OneDrive/デスクトップ/VR_team/VR_TeamProject/Content/MURAKAMI/MurakamiVRMap_BuiltData.uasset'
+[2023.10.10-02.42.50:017][241]AssetCheck: New page: アセット保存：複数のアセット
+[2023.10.10-02.42.50:017][241]LogContentValidation: Display: World /Game/MURAKAMI/MurakamiVRMap.MurakamiVRMap を検証しています
+[2023.10.10-02.42.50:017][241]LogContentValidation: Display: MapBuildDataRegistry /Game/MURAKAMI/MurakamiVRMap_BuiltData.MurakamiVRMap_BuiltData を検証しています
